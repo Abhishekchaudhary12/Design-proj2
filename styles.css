@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+header {
+    background: white;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+.logo {
+    width: 100px;
+    display: inline-block;
+}
+
+.btn {
+    background: deeppink;
+    color:white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    float: right;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: white;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.hero .mockup {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.stats {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    border-bottom: 1px solid white;
+}
+
+.stat {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.stat h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.features {
+    padding: 60px 20px;
+    background: white;
+}
+
+.feature {
+    text-align: left;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.feature img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-info {
+    margin-bottom: 20px;
+}
+
+.footer-info img {
+    max-width: 100px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.social a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.newsletter h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: deeppink;
+    color: white;
+    cursor: pointer;
+}
